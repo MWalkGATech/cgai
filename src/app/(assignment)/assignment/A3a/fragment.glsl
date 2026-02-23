@@ -222,7 +222,7 @@ float lightmarch(vec3 p, vec2 fragCoord, int model) {
 //// sampleVolume: returns (rgb, sigma) at point p
 //// - rgb: emitted/scattered color at this point
 //// - sigma: extinction coefficient for Beer-Lambert alpha computation
-//// This rgb resutls can be considered as a mapping from density to color, which you can design as you like.
+//// This rgb results can be considered as a mapping from density to color, which you can design as you like.
 //// Adapted from https://www.shadertoy.com/view/7sSGRV
 /////////////////////////////////////////////////////
 
